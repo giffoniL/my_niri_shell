@@ -1,0 +1,118 @@
+* {
+  all: unset;
+}
+
+.bar {
+  background: rgba(245, 245, 245, 0.95);
+}
+
+.left_button_widget {
+  margin: 0px 0px 0px 3px;
+  color: #242424;
+  font-family: MaterialSymbolsRounded;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.left_button_widget:hover {
+  color: #ED5F5D;
+}
+
+.right_button_widget {
+  margin: 0px 6px 0px 0px;
+  color: #242424;
+  font-family: MaterialSymbolsRounded;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.right_button_widget:hover {
+  color: #315bef;
+}
+
+.clock_widget {
+  margin: 3px 0px 3px 0px;
+  padding: 0px 6px 0px 6px;
+  border-radius: 6px;
+  color: #242424;
+  font-family: InterVariable;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.workspaces_widget {
+  margin: 3px 0px 3px 6px;
+  padding: 0px 6px 0px 6px;
+  border-radius: 6px;
+}
+
+.focused_workspace {
+  min-width: 24px;
+  min-height: 12px;
+  border-radius: 12px;
+  background-color: #315bef;
+  transition: background-color 0.3s ease, min-width 0.3s ease, border-radius 0.3s ease;
+}
+
+.unfocused_workspace {
+  min-width: 12px;
+  min-height: 12px;
+  border-radius: 6px;
+  background-color: #565656;
+  transition: background-color 0.3s ease, min-width 0.3s ease, border-radius 0.3s ease;
+}
+
+.unfocused_workspace:hover {
+  background-color: #315bef;
+  transition: background-color 0.3s ease, min-width 0.3s ease, border-radius 0.3s ease;
+}
+
+.devices_widget {
+  margin: 3px 0px 3px 0px;
+  color: #242424;
+}
+
+.power_buttons {
+  border-radius: 12px;
+  background: rgba(245, 245, 245, 0.95);
+}
+
+.power_icons {
+  transition: transform 0.3s ease;
+}
+
+.power_icons:hover {
+  transform: scale(1.1);
+}
+
+.power_icons:active {
+  transform: scale(0.95);
+}
+
+.dock_box {
+  background: rgba(245, 245, 245, 0.95);
+  border-radius: 6px 6px 0px 0px;
+  padding: 0px 12px 0px 12px;
+}
+
+.dock_icons {
+  transition: transform 0.3s ease;
+  margin: 6px 0px 6px 0px;
+}
+
+.dock_icons:hover {
+  transform: scale(1.1);
+}
+
+.dock_icons:active {
+  transform: scale(0.95);
+}
+
+.dock_separator {
+  background-color: #565656;
+  border-radius: 1px;
+  margin: 6px 0 6px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
